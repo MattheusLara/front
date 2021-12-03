@@ -21,6 +21,19 @@ export const CardDoProduto = styled.div`
   width: 300px;
 `;
 
+export const Filtro = styled.div`
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+`;
+
+export const FiltroPesquisa = styled.input`
+  outline: none;
+  border-radius: 4px;
+  width: 300px;
+  padding: 6px;
+`;
+
 export const ImagemDoPruduto = styled.img`
   height: 300px;
   min-width: 300px;
@@ -67,6 +80,25 @@ export const BotaoDoProduto = styled.button`
 
   &:hover {
     background: #ffc500;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    color: #000;
+  }
+`;
+
+export const BotaoFilter = styled.button`
+  width: 35px;
+  height: 36px;
+  font-size: 1rem;
+  border: none;
+  background: #ffc500;
+  color: #000000;
+  transition: 0.2 ease-out;
+  border-radius: 4px;
+  margin-left: 10px;
+
+  &:hover {
+    background: #e31837;
     transition: 0.2s ease-out;
     cursor: pointer;
     color: #000;
